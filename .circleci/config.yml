@@ -41,7 +41,7 @@ jobs:
       - run: docker build -t opayelle/node-openshift-ex .
  
       # Tag the image
-      - run: docker tag opayelle/node-openshift-ex quay.io/opayelle/node-openshift-ex:latest
+      - run: docker tag opayelle/node-openshift-ex quay.io/opayelle/manawa-repository:latest
  
       # deploy the image
-      - run: docker push quay.io/opayelle/node-openshift-ex:latest
+      - run: docker push quay.io/opayelle/manawa-repository:latest
